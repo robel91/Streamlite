@@ -1,17 +1,6 @@
-import csv
-from statistics import correlation
-from tkinter import Button
-from unittest import result
-from matplotlib import image
+
 import streamlit as st
 import pandas as pd
-from PIL import Image
-import seaborn as sns
-from matplotlib import figure
-import pickle
-#import shap
-import matplotlib.pyplot as plt
-from sklearn import datasets
 import base64
 
 
@@ -74,17 +63,7 @@ if selection == 'FileUploader':
     if st.checkbox("Drop Null Values"):
         st.write(df.dropna(axis=0, how='any'))
 
-    #Data Exploration and Visualization
-        
-    if st.checkbox("Seaborn Pairplot"):
-        fig = sns.pairplot(df, hue="color")
-        st.pyplot(fig)
-        #st.write(sns.pairplot(diamond[['price','carat','color']],hue="color",height=5))
-        #(plt.show())
-        #st.write(sns.barplot(x = "carat", y = "color", data = diamond))
-        #(plt.show())
-        #st.write(sns.barplot(x = "price", y = "color", data = diamond))
-        #(plt.show())  
+    
 
 #Data Model
 if selection == 'Data Visualization & Model Prediction':
@@ -99,10 +78,6 @@ if selection == 'Data Visualization & Model Prediction':
         st.markdown(pdf_display,unsafe_allow_html=True)
 
     show_pdf('model.pdf')
-
-    
-
-
 
     
 #Presentation Video
