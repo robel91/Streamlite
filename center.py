@@ -68,7 +68,7 @@ if selection == 'Data Visualization & Model Prediction':
         #Display file
         st.markdown(pdf_display,unsafe_allow_html=True)
 
-    st.write(show_pdf('https://github.com/robel91/Streamlite/blob/main/model.pdf'))
+    show_pdf("C:/Users/Owner/Desktop/Price prediction Model Webpage/model.pdf"))
 
     
 #Presentation Video
