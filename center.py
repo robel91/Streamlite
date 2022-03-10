@@ -68,7 +68,7 @@ if selection == 'Data Visualization & Model Prediction':
         #Display file
         st.markdown(pdf_display,unsafe_allow_html=True)
 
-    show_pdf("C:/Users/Owner/Desktop/Price prediction Model Webpage/model.pdf")
+    show_pdf("model.pdf")
 
     
 #Presentation Video
