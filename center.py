@@ -2,7 +2,8 @@ import pandas as pd
 import streamlit as st
 import base64
 
-st.header ('''Price Prediction Model "Team Alpha":muscle::muscle:''')
+st.header (" Prediction Model Powered By Machine Learning /
+               By Robel Mebrahtu:muscle::muscle:")
 
 #Sidebar
 selection = st.sidebar.radio("HOME",
