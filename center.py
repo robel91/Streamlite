@@ -58,7 +58,7 @@ if selection == 'FileUploader':
 
 #Data Model
 if selection == 'Data Visualization & Model Prediction':
-    st.write("In this wepage we will show our model that predicts diamond price based on different algorithms. Due to we cannot deploy the model itself on streamlit and give us wrong prediction, We have embeded the Jupyter Notebook file here")
+    st.write(" This page shows my model that predicts diamond price using different algorithms. Due to I cannot deploy the model itself on streamlit and give me wrong prediction, I have embeded the Jupyter Notebook file here")
 
     def show_pdf(file):
         with open(file, 'rb') as f:
