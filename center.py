@@ -74,4 +74,5 @@ if selection == 'Data Visualization & Model Prediction':
 #Presentation Video
 if selection == "Presentation Video":
     st.write("Video Presentation That Describe How the Algorithm Works Will be Uploaded Soon ")
-    st.image(image=Image.open('robel.jpg'), caption='Robel Mebrahtu / Data Scientist @ Hack.Diversity' )
+    #st.image(image=Image.open('robel.jpg'), caption='Robel Mebrahtu / Data Scientist @ Hack.Diversity' )
+    st.video("https://youtu.be/iRWfO3u9EVk")
