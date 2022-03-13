@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import base64
 
-st.header ('''Prediction Model Powered By Machine Learning By Robel Mebrahtu:muscle::muscle:''')
+st.header ('''Prediction Model Dashboard "Team Alpha" :muscle::muscle:''')
 
 #Sidebar
 selection = st.sidebar.radio("HOME",
@@ -75,4 +75,4 @@ if selection == 'Data Visualization & Model Prediction':
 if selection == "Presentation Video":
     st.write("Video Presentation That Describe How the Algorithm Works Will be Uploaded Soon ")
     #st.image(image=Image.open('robel.jpg'), caption='Robel Mebrahtu / Data Scientist @ Hack.Diversity' )
-    st.video("https://youtu.be/iRWfO3u9EVk")
+    st.video()
