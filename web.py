@@ -44,7 +44,7 @@ if selection == 'FileUploader':
     if st.checkbox("Data Shape"):
         st.write(df.shape)
     
-    if st.checknox("Statistical Summary"):
+    if st.checkbox("Statistical Summary"):
         st.write(df.describe())
         
     if st.checkbox("Show Data Types"):
