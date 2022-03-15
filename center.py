@@ -58,7 +58,7 @@ if selection == 'FileUploader':
 
 #Data Model
 if selection == 'Data Visualization & Model Prediction':
-    st.write(" This page shows my model that predicts diamond price using different algorithms. Due to I cannot deploy the model itself on streamlit and give me wrong prediction, I have embeded the Jupyter Notebook file here")
+    st.write(" This page shows our various machine learning models that predicts diamond price. Due to we cannot deploy the model itself on streamlit and consistently give us wrong prediction, We have embeded the Jupyter Notebook file here instead")
 
     def show_pdf(file):
         with open(file, 'rb') as f:
@@ -88,6 +88,6 @@ if selection == 'Dashboard Picture':
     
 #Presentation Video
 if selection == "Presentation Video":
-    st.write("Video Presentation That Describe How the Algorithm Works Will be Uploaded Soon ")
+    st.write("Final project presentation by the Team Alpha ")
     #st.image(image=Image.open('robel.jpg'), caption='Robel Mebrahtu / Data Scientist @ Hack.Diversity' )
     st.video()
