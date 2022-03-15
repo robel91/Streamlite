@@ -44,6 +44,12 @@ if selection == 'FileUploader':
     if st.checkbox("Data Shape"):
         st.write(df.shape)
     
+    if st.checknox("Statistical Summary"):
+        st.write(df.describe())
+        
+    if st.checkbox("Show Data Types"):
+        st.write(df.info())
+    
 
     st.title ("Data Cleaning")
     st.write("In this part we will check if data needs any cleaning")
@@ -53,6 +59,8 @@ if selection == 'FileUploader':
     
     if st.checkbox("Drop Null Values"):
         st.write(df.dropna(axis=0, how='any'))
+        
+    
 
     
 
