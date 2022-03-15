@@ -97,5 +97,4 @@ if selection == 'Dashboard Picture':
 #Presentation Video
 if selection == "Presentation Video":
     st.write("Final project presentation by the Team Alpha ")
-    #st.image(image=Image.open('robel.jpg'), caption='Robel Mebrahtu / Data Scientist @ Hack.Diversity' )
-    st.video()
+    st.video("https://www.youtube.com/watch?v=0pLZvo0tEDw")
