@@ -83,7 +83,7 @@ if selection == 'Dashboard Picture':
         #Display file
         st.markdown(pdf_display,unsafe_allow_html=True)
 
-    show_pdf("model.pdf")
+    show_pdf("diamond-dashboard.pdf")
 
     
 #Presentation Video
