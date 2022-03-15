@@ -97,4 +97,4 @@ if selection == 'Dashboard Picture':
 #Presentation Video
 if selection == "Presentation Video":
     st.write("Final project presentation by the Team Alpha ")
-    st.video("https://www.youtube.com/watch?v=0pLZvo0tEDw")
+    st.video("https://youtu.be/_z1Aq2hrtfk")
