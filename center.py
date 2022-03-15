@@ -6,7 +6,7 @@ st.header ('''Prediction Model Dashboard "Team Alpha" :muscle::muscle:''')
 
 #Sidebar
 selection = st.sidebar.radio("HOME",
-                ("FileUploader", "Data Visualization & Model Prediction","Presentation Video"))
+                ("FileUploader", "Data Visualization & Model Prediction","Dashboard Picture","Presentation Video"))
 
 
 
@@ -59,6 +59,21 @@ if selection == 'FileUploader':
 #Data Model
 if selection == 'Data Visualization & Model Prediction':
     st.write(" This page shows my model that predicts diamond price using different algorithms. Due to I cannot deploy the model itself on streamlit and give me wrong prediction, I have embeded the Jupyter Notebook file here")
+
+    def show_pdf(file):
+        with open(file, 'rb') as f:
+            base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+        pdf_display = f'<iframe src ="data:application/pdf;base64,{base64_pdf}" width = "800" height = "800" type="application/pdf"></iframe>'
+
+        #Display file
+        st.markdown(pdf_display,unsafe_allow_html=True)
+
+    show_pdf("model.pdf")
+    
+    
+ #Dashboard PDF
+if selection == 'Dashboard Picture':
+    st.write(" This page shows our Dashboard Image with different models and their accuracy")
 
     def show_pdf(file):
         with open(file, 'rb') as f:
